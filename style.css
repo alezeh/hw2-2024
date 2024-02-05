@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, Verdana;
+    font-family: "Arial", Verdana, sans-serif;
     background-color: #000000; 
     color: #ffffff; 
     margin: 20px 20px 0px 20px; 
@@ -103,13 +103,12 @@ Use #C4C4C4 for the heading and paragraph text */
 }
 
 footer {
-    background: rgb(0,0,0);
     background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,255,1) 25%, rgba(0,102,255,1) 70%, rgba(0,0,0,1) 100%);
     border: 5px solid #ffffff;
 }
 
-footer p{
+footer p {
     font-size: 20px;
     text-align: right;
-    padding: 15px 15px 15px 0px;
+    padding: 15px 15px 15px 0;
 }
